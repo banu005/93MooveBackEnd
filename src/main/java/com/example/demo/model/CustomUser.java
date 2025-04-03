@@ -3,7 +3,7 @@ package com.example.demo.model;
 import jakarta.persistence.*;
 
 import java.util.Set;
-
+//model : donnée, table de la bdd
 @Entity
 @Table(name = "user")
 public class CustomUser {

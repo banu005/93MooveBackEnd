@@ -13,9 +13,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 import java.util.stream.Collectors;
-
+//réaliser le service demandé, fait l'action, exécute l'algo
 @Service
 public class CustomUserDetailsService implements UserDetailsService {
+    //récupère le repository
     @Autowired
     private CustomUserRepository customUserRepository;
     @Override

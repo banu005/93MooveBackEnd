@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
+//controller : action possible sur l'api, liste les endpoints, reçoit les demandes
 @RestController
 @CrossOrigin
 public class UserController {
